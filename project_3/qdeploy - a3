@@ -1,0 +1,4 @@
+chmod 777 a3/ODR_parbhattacha
+chmod 777 a3/client_parbhattacha
+chmod 777 a3/server_parbhattacha
+./deploy_app a3/ODR_parbhattacha a3/client_parbhattacha a3/server_parbhattacha

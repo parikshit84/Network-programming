@@ -1,0 +1,18 @@
+Group members:
+PARIKSHIT BHATTACHARJEE 
+NITIN SINGH 
+__________________________________________________
+
+Created an arry of structures conn[] to store the IP address/ network mask /subnet addresses and socket file descriptors of all the interfaces. We implemented this both on the client and on the server.
+______________
+We modified all float values in the rtt functions to use integers instead. Converted all second values to milliseconds.
+__________
+Implemented flow control in the following manner:
+Client ACKs every segment sent by server (provided it is not dropped)
+The ACK contains the advertised window size and the next expected sequnce number. The server determines if the sliding window can be advanced by looking at the values of next expected segment and advertised window size.
+__________
+We created a separate field in the datagram structure for the EOF indicator. If the server is sending the last file segment, the EOF flag for that segment is turned on. When the client ACKS the last segment, the EOF flag remains on.
+________________
+The client goes to a TIME_WAIT state after sending the ACK for the last segment, and waits for a pre-determined time before exiting. This ensures a clean closing.
+_______________
+

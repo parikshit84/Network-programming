@@ -1,0 +1,15 @@
+% ls
+client_parbhattacha    get_hw_addrs.c  makefile         ODR_parbhattacha    prhwaddrs    Readme                 server_parbhattacha.o
+client_parbhattacha.c  get_hw_addrs.o  Makefile_cse533  ODR_parbhattacha.c  prhwaddrs.c  server_parbhattacha
+client_parbhattacha.o  hw_addrs.h      makefile_temp    ODR_parbhattacha.o  prhwaddrs.o  server_parbhattacha.c
+% ~cse533/bthandin   Asgn3 makefile Readme *.h *.c
+makefile
+Readme
+hw_addrs.h
+client_parbhattacha.c
+get_hw_addrs.c
+ODR_parbhattacha.c
+prhwaddrs.c
+server_parbhattacha.c
+Mon Nov 24 09:54:44 EST 2014 parbhattacha submitted project Asgn3
+%
